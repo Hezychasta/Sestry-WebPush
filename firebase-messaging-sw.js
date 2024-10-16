@@ -2,14 +2,14 @@ importScripts("https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js");
 importScripts("https://www.gstatic.com/firebasejs/9.0.0/firebase-messaging.js");
 
 var firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID",
-  measurementId: "YOUR_MEASUREMENT_ID",
-};
+    apiKey: "AIzaSyCznXzIKNVBCGv4Cz3_jRVbTqRTz832fBU",
+    authDomain: "webpush-sestry.firebaseapp.com",
+    projectId: "webpush-sestry",
+    storageBucket: "webpush-sestry.appspot.com",
+    messagingSenderId: "1014436884079",
+    appId: "1:1014436884079:web:356dfcbb511d6fac9f679a",
+    measurementId: "G-MZLQ4V5SJ7"
+  };
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
