@@ -18,10 +18,13 @@ const messaging = firebase.messaging();
 
 messaging.onBackgroundMessage(function (payload) {
   console.log("Received background message ", payload);
+  // Customize notification here
   const notificationTitle = payload.notification.title;
   const notificationOptions = {
     body: payload.notification.body,
+    icon: 'https://cdn.prod.website-files.com/64ae87f7e78a43a0daca2b12/6745ca3129d58e08ce0637e8_Sestry-Logo.svg'   
+ // Replace with your icon path
   };
 
-  self.registration.showNotification(notificationTitle, notificationOptions);
+  return self.registration.showNotification(notificationTitle, notificationOptions);
 });
